@@ -2,26 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.teambg{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/assets/images/echipa.jpeg');
+  background-position:center top;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+} 
+
+.teamcard{
+  background: linear-gradient(135deg, #fd7102, #FFA500 );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.gradienttext{
+  @apply text-transparent bg-clip-text bg-gradient-to-b from-primary-200 to-primary-100
 }
