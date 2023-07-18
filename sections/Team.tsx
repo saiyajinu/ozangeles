@@ -2,11 +2,11 @@ import PlayerCard from "@/components/PlayerCard"
 
 const Team = () => {
   return (
-    <section id="echipa" className='py-20 bg-gradient-to-br from-gray-100 to-[#fed9bc]'>
-        <div className='font-bold text-8xl text-center gradienttext pt-6 italic uppercase mb-10'>
+    <section id="echipa" className='py-16 bg-gradient-to-br from-gray-100 to-[#fed9bc]'>
+        <div className='sectiontitle'>
           echipă
         </div>
-        <div className="grid grid-cols-2 grid-flow-row mx-64 mb-32">
+        <div className="grid grid-cols-2 grid-flow-row mx-64 mb-32 mt-10">
           <PlayerCard
           name = "Paul Ciucă"
           position = "Atacant"

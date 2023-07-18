@@ -8,10 +8,8 @@ export default function Home() {
     <div>
       <Hero />
       <Team />
-      
-      <section className="teambg">
-        <Posts />
-      </section>
+      <Posts />
+
         
     </div>
     

@@ -21,3 +21,7 @@
 .gradienttext{
   @apply text-transparent bg-clip-text bg-gradient-to-b from-primary-200 to-primary-100
 }
+
+.sectiontitle{
+  @apply font-bold text-8xl text-center gradienttext pt-6 italic uppercase
+}

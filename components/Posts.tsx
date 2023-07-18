@@ -1,33 +1,26 @@
-import React, { useEffect } from 'react';
+import { useEffect } from "react"
 
-const Post = () => {
+const Posts = () => {
   useEffect(() => {
-    // Load the Instagram embed script when the component mounts
     const script = document.createElement('script');
-    script.src = 'https://www.instagram.com/embed.js';
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+    script.defer = true
     script.async = true;
     document.body.appendChild(script);
-
-    // Clean up the script when the component unmounts
     return () => {
       document.body.removeChild(script);
     };
   }, []);
-
   return (
-    <div className="mx-auto max-w-2xl">
-      {/* Replace the inline styles with Tailwind CSS classes */}
-      <blockquote
-        className="instagram-media"
-        data-instgrm-captioned
-        data-instgrm-permalink="https://www.instagram.com/p/Cu1pzrKI_VH/?utm_source=ig_embed&amp;utm_campaign=loading"
-        data-instgrm-version="14"
-      >
-        {/* Your Instagram post content */}
-        {/* ... */}
-      </blockquote>
-    </div>
-  );
-};
+    <section className="py-16 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
+      <div className="sectiontitle">Instagram</div>
+      <div className="flex justify-center mt-20">
+        <div className="elfsight-app-f1eeb4f5-125f-4c5d-a3da-e815cca5616b"></div>
+      </div>
+    </section>
+    
+    
+  )
+}
 
-export default Post;
+export default Posts
