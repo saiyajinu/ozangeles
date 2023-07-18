@@ -20,15 +20,13 @@ const PlayerCard = (props: IPlayerCardProps) => {
       </div>
 
       <div className="justify-self-center h-2/3">
-        <div className="mt-[77px] w-[130px] h-[70px] bg-texture bg-cover absolute rounded-tl-[2rem] rounded-br-[2rem] rounded-bl-lg rounded-tr-lg ml-[50px]">
+        <div className="mt-[77px] w-[130px] h-[71px] bg-texture bg-cover absolute rounded-tl-[2rem] rounded-br-[2rem] rounded-bl-lg rounded-tr-lg">
 
         </div>
-        <Image
+        <img
             src={props.image}
             alt="poza_jucator"
-            className=" max-w-[220px] relative z-10"
-            width={220}
-            height={220}
+            className="w-[110px] relative z-10 ml-3"
           />
       </div>
       
