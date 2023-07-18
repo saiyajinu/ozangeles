@@ -30,5 +30,5 @@
 }
 
 .sectiontitle{
-  @apply font-bold text-center gradienttext italic uppercase md:text-8xl pt-6 text-6xl
+  @apply font-bold text-center gradienttext italic uppercase text-6xl md:text-8xl 
 }

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="teambg">
         <div>
-            <div className='sectiontitle'>
+            <div className='sectiontitle pt-8'>
                 OZANGELES FC
             </div>
             <div className='italic text-center text-xl ml-64 mt-2 md:text-3xl md:mt-4 md:ml-96 text-white'>

@@ -12,7 +12,7 @@ const Posts = () => {
     };
   }, []);
   return (
-    <section className="py-16 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
+    <section className="pb-16 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
       <div className="sectiontitle">Instagram</div>
       <div className="flex justify-center mt-20">
         <div className="elfsight-app-f1eeb4f5-125f-4c5d-a3da-e815cca5616b"></div>
