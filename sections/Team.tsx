@@ -6,7 +6,7 @@ const Team = () => {
         <div className='sectiontitle'>
           echipă
         </div>
-        <div className="grid grid-cols-2 grid-flow-row mx-64 mb-32 mt-10">
+        <div className="sm:grid sm:grid-cols-2 grid-flow-row mx-0 sm:mx-64 mb-32 mt-10">
           <PlayerCard
           name = "Paul Ciucă"
           position = "Atacant"

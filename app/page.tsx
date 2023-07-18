@@ -1,5 +1,5 @@
 "use client"
-import Posts from '@/components/Posts'
+import Posts from '@/sections/Posts'
 import Team from '@/sections/Team'
 import Hero from '@/sections/Hero'
 
@@ -9,8 +9,6 @@ export default function Home() {
       <Hero />
       <Team />
       <Posts />
-
-        
     </div>
     
   )

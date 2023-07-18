@@ -2,17 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
+
 .teambg{
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/assets/images/echipa.jpeg');
   background-position:center top;
   background-repeat: no-repeat;
   height:100vh;
   background-size: cover;
-  background-attachment: fixed;
   overflow:hidden;
-  margin: 0;
-  padding: 0;
 } 
+@media (max-height: 700px) {
+  .teambg {
+    /* Expand the height beyond 100vh */
+    height: auto;
+  }
+}
 
 .teamcard{
   background: linear-gradient(135deg, #fd7102, #FFA500 );
@@ -23,5 +30,5 @@
 }
 
 .sectiontitle{
-  @apply font-bold text-8xl text-center gradienttext pt-6 italic uppercase
+  @apply font-bold text-center gradienttext italic uppercase md:text-8xl pt-6 text-6xl
 }
