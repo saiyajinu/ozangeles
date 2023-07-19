@@ -8,7 +8,7 @@ const oswald = Oswald({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Ozangeles',
-  description: 'Ozangeles FC for Victory Cup in Bucharest',
+  description: 'Ozangeles FC, echipa de minifotbal din competitia Victory Cup',
 }
 
 export default function RootLayout({

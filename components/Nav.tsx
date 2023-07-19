@@ -13,11 +13,11 @@ const Nav = () => {
             className="ml-6"
           />
         </Link>
-        <Link href="#echipa" className="ml-12 hover:text-primary-200">
+        <Link href="#echipa" className="ml-12 hover:text-primary-100">
             Echipă
         </Link>
-        <Link href="#meciuri" className="ml-12 hover:text-primary-200">
-            Meciuri
+        <Link href="#rezultate" className="ml-12 hover:text-primary-100">
+            Rezultate
         </Link>
     </nav>
   )
