@@ -8,8 +8,7 @@ const Team = () => {
     >
       <div className="sectiontitle pt-8">echipă</div>
       <div
-        className="mb-32 mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4
-        lg:bg-white xl:bg-red-500 md:bg-black sm:bg-green-400"
+        className="mb-32 mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
       >
         <PlayerCard
           name="Paul Ciucă"
