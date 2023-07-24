@@ -1,0 +1,98 @@
+[
+    {
+      "nume": "Ciucă Paul",
+      "pozitie": "Atacant",
+      "imgurl": "ciucapaul",
+      "description": ""
+    },
+    {
+      "nume": "Nica Mihai",
+      "pozitie": "Atacant",
+      "imgurl": "nicamihai",
+      "description": ""
+    },
+    {
+      "nume": "Dumitrescu Cezar",
+      "pozitie": "Atacant",
+      "imgurl": "dumitrescucezar",
+      "description": ""
+    },
+    {
+      "nume": "Batala Mihnea",
+      "pozitie": "Atacant",
+      "imgurl": "batalamihnea",
+      "description": ""
+    },
+    {
+      "nume": "Dumitriu Andrei",
+      "pozitie": "Mijlocas",
+      "imgurl": "dumitriuandrei",
+      "description": ""
+    },
+    {
+      "nume": "Rosu Antonio",
+      "pozitie": "Mijlocas",
+      "imgurl": "rosuantonio",
+      "description": ""
+    },
+    {
+      "nume": "Bobonete Alexandru",
+      "pozitie": "Mijlocas",
+      "imgurl": "bobonetealexandru",
+      "description": ""
+    },
+    {
+      "nume": "Soare Bogdan",
+      "pozitie": "Fundas",
+      "imgurl": "soarebogdan",
+      "description": ""
+    },
+    {
+      "nume": "Balasoiu Vlad",
+      "pozitie": "Fundas",
+      "imgurl": "balasoiuvlad",
+      "description": ""
+    },
+    {
+      "nume": "Juretcu Florin",
+      "pozitie": "Fundas",
+      "imgurl": "juretcuflorin",
+      "description": ""
+    },
+    {
+      "nume": "Sopron Theodor",
+      "pozitie": "Fundas",
+      "imgurl": "soprontheodor",
+      "description": ""
+    },
+    {
+      "nume": "Ciobanu Iulian",
+      "pozitie": "Fundas",
+      "imgurl": "ciobanuiulian",
+      "description": ""
+    },
+    {
+      "nume": "Diallo Patrick",
+      "pozitie": "Fundas",
+      "imgurl": "diallopatrick",
+      "description": ""
+    },
+    {
+      "nume": "Bonu Costin",
+      "pozitie": "Portar",
+      "imgurl": "bonucostin",
+      "description": ""
+    },
+    {
+      "nume": "Mihalache Vlad",
+      "pozitie": "Portar",
+      "imgurl": "mihalachevlad",
+      "description": ""
+    },
+    {
+      "nume": "Munteanu Paul",
+      "pozitie": "Portar",
+      "imgurl": "munteanupaul",
+      "description": ""
+    }
+  ]

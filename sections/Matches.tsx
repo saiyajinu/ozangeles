@@ -43,8 +43,8 @@ const Matches = () => {
 
 
   return (
-    <section id="rezultate" className="py-16 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
-        <div className="sectiontitle mb-16">Rezultate</div>
+    <section id="rezultate" className="pt-16 pb-32 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
+        <div className="sectiontitle mb-32">Rezultate</div>
         { matches ? renderMatchResults() : ''}
     </section>
   )

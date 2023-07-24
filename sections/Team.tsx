@@ -1,6 +1,21 @@
 import PlayerCard from "@/components/PlayerCard";
+import playerdata from "../public/playerdata.json"
 
 const Team = () => {
+
+  const renderPlayers = () => {
+    return playerdata.map((item : any) => {
+      return (
+        <PlayerCard
+          name={item.nume}
+          position={item.pozitie}
+          description={item.description}
+          image={`/assets/images/${item.imgurl}.png`}
+        />
+      )
+    })
+  }
+
   return (
     <section
       id="echipa"
@@ -10,54 +25,11 @@ const Team = () => {
       <div
         className="mb-32 mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
       >
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
-        <PlayerCard
-          name="Paul Ciucă"
-          position="Atacant"
-          description="ALorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed."
-          image="/assets/images/ciucanobg.png"
-        />
+        {
+          renderPlayers()
+        }
+        
+
       </div>
     </section>
   );
