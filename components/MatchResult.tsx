@@ -11,9 +11,9 @@ type IMatchResultProps = {
 const MatchResult = (props: IMatchResultProps) => {
   return (
         <div className="flex border-b-2 mt-4 border-black mx-auto py-2 px-2 max-w-4xl">
-            <div className="basis-[10%]">
+            <div className="basis-[5%]">
             {
-                props.isCup ? <img src="/assets/images/supercupa.png" className="w-[35px] my-auto ml-auto mr-12" /> : <img src="/assets/images/liga3f.png" className="w-[35px] my-auto ml-auto mr-12" />  
+                props.isCup ? <img src="/assets/images/supercupa.png" className="w-[35px] my-auto ml-auto" /> : <img src="/assets/images/liga3f.png" className="w-[35px] my-auto ml-auto" />  
             }
             </div>
             
