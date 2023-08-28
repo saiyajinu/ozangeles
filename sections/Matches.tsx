@@ -46,8 +46,7 @@ const Matches = () => {
     <section id="rezultate" className="pt-16 pb-32 bg-gradient-to-bl from-[#fed9bc] to-gray-100">
         <div className="sectiontitle mb-16">Rezultate</div>
         <div className="my-12 text-center mx-16 mb-16 sm:mx-32 md:mx-48 lg:mx-64 md:text-xl xl:mx-96 xl:text-2xl">
-        Descoperiți mai jos cele mai recente performanțe ale echipei noastre în cadrul competițiilor in care ne desfășurăm.
-        </div>
+        Descoperiți mai jos cele mai recente performanțe ale echipei noastre în cadrul competiției in care ne desfășurăm.        </div>
         { matches ? renderMatchResults() : ''}
     </section>
   )
