@@ -12,7 +12,7 @@ const PlayerCard = (props: IPlayerCardProps) => {
     <div className="w-full flex justify-center">
       <div className="mt-12 border-2 p-2 sm:p-4 inline-block border-black teamcard rounded-xl text-gray-900 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
         <div className="text-center w-40 sm:w-48">
-          <div className="text-xl font-bold my-1">{props.name}</div>
+          <div className="text-xl font-bold my-1 whitespace-nowrap text-ellipsis">{props.name}</div>
           <div className="my-1">{props.position}</div>
           <div className="text-sm sm:text-base">{props.description}</div>
         </div>
