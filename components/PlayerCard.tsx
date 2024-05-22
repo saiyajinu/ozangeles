@@ -18,12 +18,14 @@ const PlayerCard = (props: IPlayerCardProps) => {
         </div>
 
         <div className="justify-self-center my-auto flex justify-center">
-          <div className="mt-[60px] sm:mt-[77px] w-[110px] h-[47px] sm:w-[120px] sm:h-[57px] bg-texture bg-cover absolute rounded-tl-[2rem] rounded-br-[2rem] rounded-bl-lg rounded-tr-lg"></div>
-          <img
-            src={props.image}
-            alt="poza_jucator"
-            className="w-[80px] sm:w-[100px] relative z-10 ml-3"
-          />
+          <div className="mt-[60px] sm:mt-[77px] w-[110px] h-[47px] sm:w-[120px] sm:h-[57px] bg-texture bg-cover absolute rounded-tl-[2rem] rounded-tr-[2rem] rounded-bl-lg rounded-br-lg"></div>
+          <div className={props.name === 'Bulugeanu Andrei' ? 'mt-1.5 w-[80px] sm:w-[100px] relative z-10 ml-3' : 'w-[80px] sm:w-[100px] relative z-10 ml-3'}>
+            <img
+              src={props.image}
+              alt="poza_jucator"
+            />
+          </div>
+          
         </div>
       </div>
     </div>

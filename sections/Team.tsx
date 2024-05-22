@@ -4,7 +4,7 @@ import playerdata from "../public/playerdata.json"
 const Team = () => {
 
   const renderPlayers = () => {
-    return playerdata.map((item : any) => {
+    return playerdata.map((item: any) => {
       return (
         <PlayerCard
           name={item.nume}
@@ -30,9 +30,32 @@ const Team = () => {
         {
           renderPlayers()
         }
-        
+
 
       </div>
+      <div className="sectiontitle pt-8">Hall of Fame</div>
+      {
+        <div className="mb-32 mt-10 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+          <PlayerCard
+            name='Bulugeanu Andrei'
+            position='Atacant'
+            description=''
+            image={`/assets/images/bulugeanuandrei.png`}
+          />
+          <PlayerCard
+            name='Duta Andrei'
+            position='Incalzitor de banca'
+            description=''
+            image={`/assets/images/dutaandrei.png`}
+          />
+          <PlayerCard
+            name='Gosav Raul'
+            position='Fundas'
+            description=''
+            image={`/assets/images/gosavraul.png`}
+          />
+        </div>
+      }
     </section>
   );
 };

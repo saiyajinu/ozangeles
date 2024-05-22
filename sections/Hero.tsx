@@ -1,8 +1,21 @@
-import Image from "next/image"
+import YouTube from "react-youtube";
 
 const Hero = () => {
+    const opts = { 
+        height: "195", 
+        width: "320", 
+        playerVars: { 
+            autoplay: 1,  // This tells the player to autoplay the video on load
+            mute: 1 
+        },
+    };
+
+    const onReady = (e: any) => {
+        e.target.playVideo();
+    }
   return (
     <section className="teambg">
+        <YouTube videoId="eEkvMnXb4QY" opts={opts} onReady={onReady} className="fixed bottom-16 right-16 z-20"/>
         <div>
             <div className='sectiontitle pt-8'>
                 OZANGELES FC

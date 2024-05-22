@@ -20,7 +20,7 @@ const Matches = () => {
             const filteredMatches = data.filter(
                 match => match.teamOneName === "OZANGELES" || match.teamTwoName === "OZANGELES"
               );
-            setMatches(filteredMatches);
+            setMatches(filteredMatches.reverse());
           } catch (error) {
             console.error('Error fetching data:', error);
           }
